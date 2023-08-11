@@ -1,0 +1,108 @@
+.latest-match-container {
+  width: 100%;
+  margin-top: 24px;
+}
+.match-heading {
+  font-family: 'Roboto';
+  font-size: 22px;
+  color: #ffffff;
+  font-weight: bold;
+}
+.match-card {
+  display: flex;
+  flex-direction: column;
+  border-radius: 9px;
+  padding: 15px;
+  background-color: #0f172a;
+}
+
+@media screen and (min-width: 768px) {
+  .match-card {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
+.match-logo-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+  .match-logo-container {
+    width: 50%;
+  }
+}
+.match-details-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  width: 100%;
+  color: #ffffff;
+}
+.team-match-title {
+  font-family: 'Roboto';
+  font-size: 20px;
+  font-weight: bold;
+}
+.match-date {
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.latest-match-team-logo {
+  height: 100px;
+  width: 100px;
+}
+@media screen and (min-width: 768px) {
+  .latest-match-team-logo {
+    width: 150px;
+    height: 150px;
+  }
+}
+.match-info-container {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  margin-top: 15px;
+  padding-right: 14px;
+  padding-left: 14px;
+}
+@media screen and (min-width: 768px) {
+  .match-info-container {
+    width: 30%;
+    padding-right: 30px;
+    text-align: right;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .match-details-2 {
+    width: 40%;
+    min-height: 100px;
+    max-height: 200px;
+    padding: 5px;
+    border: 1px solid #fff9fc;
+    border-radius: 20px;
+    margin-right: 7px;
+    margin-bottom: 7px;
+  }
+}
+
+.match-label {
+  font-family: 'Bree Serif';
+  color: #ffffff;
+  font-size: 15px;
+}
+.label-value {
+  font-family: 'Bree Serif';
+  color: #ffffff;
+  font-size: 12px;
+}

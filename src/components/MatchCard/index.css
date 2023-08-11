@@ -1,0 +1,49 @@
+/* Write your CSS here */
+.match-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #0f172a;
+  list-style: none;
+  padding: 17px;
+  border-radius: 9px;
+  margin-right: 9px;
+  margin-bottom: 16px;
+  width: 50%;
+}
+.logo {
+  height: 60px;
+  width: 60px;
+}
+@media screen and (min-width: 768px) {
+  .logo {
+    height: 100px;
+    width: 100px;
+  }
+}
+.competing-team-name {
+  font-family: 'Roboto';
+  font-weight: bold;
+  font-size: 16px;
+  color: #ffffff;
+  text-align: center;
+}
+
+.result {
+  font-family: 'Roboto';
+  font-weight: bold;
+  font-size: 16px;
+  color: #ffffff;
+  text-align: center;
+}
+.status {
+  font-family: 'Bree Serif';
+  font-size: 16px;
+}
+@media screen and (min-width: 768px) {
+  .logo {
+    height: 100px;
+    width: 100px;
+  }
+}

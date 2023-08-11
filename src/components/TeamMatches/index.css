@@ -1,0 +1,33 @@
+/* Write your CSS here */
+.team-matches-container {
+  width: 90%;
+  max-width: 500px;
+  margin-top: 30px;
+}
+
+@media screen and (min-width: 768px) {
+  .team-matches-container {
+    max-width: 1000px;
+    margin-top: 46px;
+  }
+}
+.team-banner {
+  width: 100%;
+}
+.recent-matches-list {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 25px;
+  width: 100%;
+}
+@media screen and (min-width: 768px) {
+  .recent-matches-list {
+    margin-top: 36px;
+  }
+}
+.loader-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
